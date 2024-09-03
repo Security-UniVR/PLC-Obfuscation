@@ -68,3 +68,37 @@ or to add the behaviour of a filling pump to a new spurious input register:
 ```
 python3 more.py -i plc1.st -r IW1 -o conditional -c  IW1 "<=35" -c  IW1 [IW1,"<=4",this," "] -t out.st
 ```
+### BibTeX Citation
+If you use this tool in a scientific publication, we would appreciate using the following citations:
+
+@article{COZZA2024100717,
+title = {Obfuscation strategies for industrial control systems},
+journal = {International Journal of Critical Infrastructure Protection},
+pages = {100717},
+year = {2024},
+issn = {1874-5482},
+doi = {https://doi.org/10.1016/j.ijcip.2024.100717},
+url = {https://www.sciencedirect.com/science/article/pii/S1874548224000581},
+author = {Vittoria Cozza and Mila Dalla Preda and Ruggero Lanotte and Marco Lucchese and Massimo Merro and Nicola Zannone},
+keywords = {Code obfuscation, Process comprehension, Programmable logic controller},
+}
+
+@inproceedings{10.1145/3600160.3605081,
+author = {Cozza, Vittoria and Dalla Preda, Mila and Lucchese, Marco and Merro, Massimo and Zannone, Nicola},
+title = {Towards Obfuscation of Programmable Logic Controllers},
+year = {2023},
+isbn = {9798400707728},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3600160.3605081},
+doi = {10.1145/3600160.3605081},
+articleno = {121},
+numpages = {10},
+keywords = {Code obfuscation, Process comprehension, Programmable Logic Controller},
+location = {Benevento, Italy},
+series = {ARES '23}
+}
+
+
+
+
