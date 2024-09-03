@@ -80,7 +80,7 @@ issn = {1874-5482},
 doi = {https://doi.org/10.1016/j.ijcip.2024.100717},
 url = {https://www.sciencedirect.com/science/article/pii/S1874548224000581},
 author = {Vittoria Cozza and Mila Dalla Preda and Ruggero Lanotte and Marco Lucchese and Massimo Merro and Nicola Zannone},
-keywords = {Code obfuscation, Process comprehension, Programmable logic controller},
+keywords = {Code obfuscation, Process comprehension, Programmable logic controller}
 }
 
 @inproceedings{10.1145/3600160.3605081,
